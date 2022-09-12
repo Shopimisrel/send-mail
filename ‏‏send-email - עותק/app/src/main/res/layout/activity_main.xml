@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_200"
+        android:textSize="25dp"
+        android:minHeight="100dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:text="@string/made" />
+
+    <EditText
+        android:id="@+id/recipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:hint="@string/Recipient"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:hint="@string/Subject"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:inputType="text|textCapSentences"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:gravity="start"
+        android:hint="@string/message"
+        android:inputType="text|textCapSentences"
+        android:minHeight="150dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/sendEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="@string/sendsend_Email" />
+
+</LinearLayout>

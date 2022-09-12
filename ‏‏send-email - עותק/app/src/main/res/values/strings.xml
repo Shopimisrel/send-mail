@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">שלח מייל</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">הבא</string>
+    <string name="previous">הקודם</string>
+    <string name="Subject">כותרת</string>
+    <string name="Recipient">איימיל</string>
+    <string name="message">גוף ההודעה</string>
+    <string name="sendsend_Email">שלח</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="made">made by apt_update_apt_upgrade</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="open_Source">קוד פתוח</string>
+    <string name="code1">code</string>
+</resources>
